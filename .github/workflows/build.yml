@@ -4,7 +4,8 @@ on:
   release:
     types: [published]
   push:
-    branches: [main]
+    branches: [main, ngocanhnt269/fix_user_response_button]
+    workflow_dispatch:
 
 env:
   GITHUB_CR_REPO: ghcr.io/ngocanhnt269/web-ui
