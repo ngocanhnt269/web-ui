@@ -1,4 +1,5 @@
 FROM python:3.11-slim
+FROM ubuntu:20.04
 
 # Set platform for multi-arch builds (Docker Buildx will set this)
 ARG TARGETPLATFORM
