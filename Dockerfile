@@ -34,7 +34,6 @@ RUN apt-get update && apt-get install -y \
     dbus \
     xauth \
     x11vnc \
-    tigervnc-tools \
     supervisor \
     net-tools \
     procps \
