@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  GITHUB_CR_REPO: ghcr.io/${{ github.repository }}
+  GITHUB_CR_REPO: ghcr.io/ngocanhnt269/web-ui
 
 jobs:
   build:
